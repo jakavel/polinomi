@@ -106,9 +106,9 @@ def calc():
     else:
         odgovor["text"] = "Ničle: " + lepe_nicle[:-2]
 
-import matplotlib.pyplot as plt
 def narisi_graf():
     global polja_polinom
+    import matplotlib.pyplot as plt
     cleni = []
     for polje in polja_polinom:
         try:
